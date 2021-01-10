@@ -1,4 +1,4 @@
-# AF Project - Fashion Shop
+# Library Management
 
 URL of the app hosted on a cloud server: https://af-fashion-store.herokuapp.com/
 
