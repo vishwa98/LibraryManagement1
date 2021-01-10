@@ -44,7 +44,7 @@ const Checkbox = ({categories, filterProducts}) => {
 
             />
 
-            <label className="form-check-label">{cat.gender}</label>
+            <label className="form-check-label">{cat.type}</label>
         </li>
 
     ));

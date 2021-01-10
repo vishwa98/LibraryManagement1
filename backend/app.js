@@ -12,7 +12,6 @@ require("dotenv").config();
 const authRoutes = require("./routes/auth");
 const adminCategoryRoutes = require("./routes/categoryAdmin");
 const userRoutes = require("./routes/user");
-const categoryRoutes = require("./routes/category");
 const productRoutes = require("./routes/product");
 
 
@@ -66,7 +65,6 @@ app.use("/api", productRoutes);
 app.use("/api/categories", adminCategoryRoutes);
 app.use("/api", authRoutes);
 app.use("/api", userRoutes);
-app.use("/api", categoryRoutes);
 
 
 app.use("/api", ApiRoutes);

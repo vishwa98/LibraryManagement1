@@ -6,10 +6,6 @@ const categoryAdminSchema = new mongoose.Schema({
     required: true,
   },
 
-  gender: {
-    type: String,
-    required: true,
-  },
 });
 
 module.exports = mongoose.model("CategoryAdmin", categoryAdminSchema);

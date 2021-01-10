@@ -55,7 +55,7 @@ export default function AddNewBookPage({ history }) {
     categories &&
     categories.map((category) => (
       <option key={category._id} value={category._id}>
-        {category.gender}
+        {category.type}
       </option>
     ));
 
