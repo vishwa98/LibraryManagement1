@@ -29,3 +29,15 @@ npm run app
 npm run dev
 ```
 
+//To login as library manager
+```
+username : admin@admin.com
+password : 123
+```
+
+//To login as a sample user
+```
+username: ok@gmail.com
+password: 123
+
+```
