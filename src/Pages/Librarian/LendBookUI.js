@@ -75,6 +75,7 @@ const LendBookUI = (
           <div className="pi-text">
             <h6>Author - {product.author}</h6>
             <p>{product.name}</p>
+            <strong>{product.status}</strong>
             <h6>{viewSingleBook(viewProductBtn)}</h6>
           </div>
         </div>
