@@ -1,6 +1,5 @@
 # Library Management
 
-URL of the app hosted on a cloud server: https://af-fashion-store.herokuapp.com/
 
 ### Get Started
  Clone the repository using git.
@@ -19,9 +18,8 @@ Copy the .env file.
 ```
 cp .env.example .env
 ```
-Update the values of the .env file to your environment.
+Update the values of the .env file to your environment
 
-During development, you have to run both express and react server seperately. Makesure to start the express server first, then the react server(it will ask you to start in a different port, allow it).
 ```
 // start express server
 yarn app
@@ -38,4 +36,10 @@ During production, you can use the following command to build and run the expres
 yarn build
 OR
 npm run build
+```
+
+To run the backend seperately, run the below command
+```
+npm start
+
 ```
