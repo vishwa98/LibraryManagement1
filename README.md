@@ -4,7 +4,8 @@
 ### Get Started
  Clone the repository using git.
 ```$xslt
-git clone https://github.com/LakshanPerera/af-fashion-store-project.git
+git clone  https://github.com/vishwa98/LibraryManagement1
+
 ```
 
 Then install the dependencies.
@@ -21,21 +22,15 @@ cp .env.example .env
 Update the values of the .env file to your environment
 
 ```
-// start express server
-yarn app
-OR
+// start express server(run the backend seperately)
+
+```
 npm run app
 
-// start the react server
-yarn dev
-OR
+
+// To run both the front end and back end together
+```
 npm run dev
-```
-During production, you can use the following command to build and run the express and react server both
-```
-yarn build
-OR
-npm run build
 ```
 
 To run the backend seperately, run the below command
